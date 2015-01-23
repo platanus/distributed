@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.6.1)
+    beefcake (1.0.0)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    cert_validator (0.0.1)
+    hitimes (1.2.2)
+    i18n (0.7.0)
+    innertube (1.0.2)
+    multi_json (1.10.1)
+    riak-client (2.1.0)
+      beefcake (~> 1.0)
+      cert_validator (~> 0.0.1)
+      i18n (>= 0.4.0)
+      innertube (~> 1.0.2)
+      multi_json (~> 1.0)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  celluloid
+  riak-client
