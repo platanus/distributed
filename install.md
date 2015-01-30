@@ -10,7 +10,7 @@ Podemos comprobar que Riak está funcionando con este comando:
 
 `riak start`
 
-Y posteriormente para comprobar la salud del nodo:
+El servicio riak funciona por defecto en el puerto 8087. Posteriormente para comprobar la salud del nodo:
 
 `riak-admin member-status`
 
